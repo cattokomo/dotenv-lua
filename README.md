@@ -27,3 +27,9 @@ Or if you're using native Lua, you can  use [`luarocks`](https://luarocks.org) t
 ```bash
 luarocks install dotenv
 ```
+
+## Comparison
+ - Luvit
+   - [**4keef/Dotenv**](https://github.com/4keef/Dotenv) - Splits all `=` character, include inside variable value.
+ - Lua
+   - No Module can be compared
