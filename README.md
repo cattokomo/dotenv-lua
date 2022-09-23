@@ -5,9 +5,17 @@ A ".env" parser for Lua
 ```lua
 require 'dotenv'.config('path/to/.env') -- Defaults to "./.env"
 
--- The environment variable is shipped into "debug.env"
+--[[
+  THIS WILL ONLY WORK BEFORE "luarocks-dotenv@1.0.1-1" AND "lit-dotenv@1.0.2"!!
 
-print(debug.env.TEST) -- Prints out "test"
+  -- The environment variable is shipped into "debug.env"
+
+  print(debug.env.VARNAME) -- Prints out the value of the environment variable
+]]
+
+-- The environment variable is shipped into "os.env"
+
+print(os.env.VARNAME) -- Prints out the value of the environment variable
 ```
 
 ## Installation
