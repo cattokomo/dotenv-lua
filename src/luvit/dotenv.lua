@@ -1,3 +1,17 @@
+  --[[lit-meta
+    name = "UrNightmaree/dotenv"
+    version = "1.0"
+    dependencies = {
+      'luvit/fs@2.0.3',
+      'truemedian/extensions@1.0.0'
+    }
+    description = "A .env parser for Luvit runtime"
+    tags = { "luvit", "env", "dotenv" }
+    license = "MIT"
+    author = { name = "UrNightmaree", email = " " }
+    homepage = "https://github.com/UrNightmaree/dotenv-lua"
+  ]]
+
 local strext = require 'extensions'.string
 local fs = require 'fs'
 
