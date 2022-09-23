@@ -15,3 +15,7 @@ If you're using [Luvit](https://luvit.io), you can use `lit` for installing dote
 ```bash
 lit install UrNightmaree/dotenv
 ```
+Or if you're using native Lua, you can  use [`luarocks`](https://luarocks.org) to install dotenv-lua
+```bash
+luarocks install dotenv
+```
