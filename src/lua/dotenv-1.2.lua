@@ -54,7 +54,7 @@ local function parser(src)
       local sepd = val:split ' '
 
       if sepd and not val:find '^[\'"].+[\'"]$' then
-        val = sepd[1]:split '='[1]
+        val = sepd[1]:split '='[2]
       end
       if linevar[3] then
         val = table.concat(linevar,'=',2):gsub('%s+$','')
