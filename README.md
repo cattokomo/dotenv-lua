@@ -1,3 +1,5 @@
+> This is repository archived and outdated, please use [redotenv.lua](https://github.com/UrNightmaree/redotenv.lua).
+
 # dotenv-lua
 A ".env" parser for Lua
 
